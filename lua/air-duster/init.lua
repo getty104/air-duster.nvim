@@ -17,7 +17,7 @@ M.setup = function(_args)
   })
 
   vim.api.nvim_create_user_command("RemoveTabs", function()
-    api.remove_trailing_white_spaces()
+    api.remove_trailing_tabs()
   end, {
     desc = "Remove trailing tabs",
   })
