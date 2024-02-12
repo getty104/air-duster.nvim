@@ -1,5 +1,4 @@
 local api = require("air-duster.api")
-local config = require("air-duster.config")
 
 local M = {}
 
